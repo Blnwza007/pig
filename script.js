@@ -43,11 +43,11 @@ const teleport = () => {
         btn.style.scale = 0.2;
     } else if (count === 10) {
         alert("อีกนิดเดียวจร้าา😙😙");
-        btn.style.scale = Math.floor(Math.random()* 4)+ 1;
+        btn.style.scale = Math.floor(Math.random()* 3)+ 1;
     } else if (count === 15) {
         alert("หมูตัวอ้วนนิ้วสั้น🥴")
         btn.style.animation = "swing 0.1s ease-out forwards infinite";
-        btn.style.scale = Math.floor(Math.random()* 4)+ 1;
+        btn.style.scale = Math.floor(Math.random()* 3)+ 1;
     } else if (count === 20) {
         alert(`เริ่ด กว่าจะกดโดนต้องกดถึง${count}รอบเลย ใช้เวลาไปตั้ง${counttime}s🐷🐷`);
         btn.removeEventListener("touchstart", teleport);  
